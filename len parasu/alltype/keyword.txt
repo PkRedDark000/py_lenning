@@ -1,0 +1,8 @@
+ctrl + swfit + ~           new terminal open
+ctrl + ~                   reopen terminal
+python3 --version          for linux
+py -3 --version            for windows
+quit() or ctrl + D         for python close
+swfit + alt + down arrow   for vs code copy to down
+ctrl + /                   all # comment
+ctrl + d                   replesc ver name
