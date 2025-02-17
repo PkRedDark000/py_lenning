@@ -6,3 +6,5 @@ quit() or ctrl + D         for python close
 swfit + alt + down arrow   for vs code copy to down
 ctrl + /                   all # comment
 ctrl + d                   replesc ver name
+tab + swfit                remove tab
+tab                        add tab
