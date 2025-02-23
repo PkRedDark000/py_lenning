@@ -68,5 +68,9 @@ def rps():
             sys.exit("Bye!👋")
         
     return play_rps()
-play = rps()
-play()
+
+if __name__ == "__main__":
+    rps()
+    
+   
+

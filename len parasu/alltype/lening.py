@@ -604,3 +604,59 @@
 # player = {'person':'Dave','coins':3}
 # massage = "\n{person} has {coins} coins left.".format(**player)
 # print(massage)
+
+# # ######################
+# # # F-strings
+
+# message = f"\n {person} has {coins}coins left."
+# print(message)
+
+# message = f"\n {person} has {2*5}coins left."
+# print(message)
+
+# message = f"\n {person.lower()} has {2*5}coins left."
+# print(message)
+
+
+# message = f"\n {player['person']} has {2*5}coins left."
+# print(message)
+
+# # ######################
+# # # you can pass formatting options 
+
+# num = 10 
+# print(f"\n 2.25 times {num} is {2.25 * num:.2f}")
+
+# for num in range(1 , 11):
+#     print(f"\n 2.25 times {num} is {2.25 * num:.2f}")
+
+# for num in range(1 , 11):
+#     print(f"\n {num} divided by 4.52 is {num / 4.52:.2f}")
+
+# for num in range(1 , 11):
+#     print(f"\n {num} divided by 4.52 is {num / 4.52:.2%}")
+
+# # #
+# # modules for python import and from 
+
+# import math
+
+# print(math.pi)
+
+# # import math
+# from math import pi
+# print(pi)
+
+# import math
+# from math import pi
+# import random as rdm
+# print(pi)
+
+# # print(dir(rdm))
+# for item in dir(rdm):
+#     print(item)
+
+# import rps7verions
+
+# print (__name__)
+# print (rps7verions.rps())
