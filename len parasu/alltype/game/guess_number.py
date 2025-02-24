@@ -6,8 +6,6 @@ def rps(name="Playerone"):
     game_count = 0
     python_wins = 0
     player_wins = 0
-    wins_person = 0
-    
     def play_rps():
         nonlocal name
         nonlocal player_wins
@@ -31,11 +29,10 @@ def rps(name="Playerone"):
             nonlocal name
             nonlocal python_wins
             nonlocal player_wins
-            nonlocal wins_person
             if player == choice_computer:
                 player_wins += 1
                 print (f"🎉{name}✨You Win!")
-                wins_person = (game_count + player_wins - python_wins )
+                wins_person = (game_count / player_wins )
             else:
                 python_wins += 1
                 print (f"🐍Python Wins! \n{name}...Lose! the Game😁")
@@ -47,7 +44,7 @@ def rps(name="Playerone"):
         
         print(f"\n{name}'s wins: {player_wins}")
 
-        print (f"{wins_person /1:.2%}")
+        print (f"{player_wins / game_count:.2%}")
     
         print(f"\nPython wins : {python_wins}")
 
