@@ -43,3 +43,7 @@ print(sum(numbers))
 names = ['parasu ','kaviya ','parthiban ']
 char_count = reduce(lambda acc, curr: acc + len (curr),names,0)
 print (char_count)
+
+names = ['parasu ','kaviya ','parthiban ']
+char_count = reduce(lambda acc, curr: acc + len (curr),names,2)
+print (char_count)
