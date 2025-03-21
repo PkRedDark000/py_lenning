@@ -4,5 +4,5 @@ class BankAccount:
         self.balance = initial_amount
         self.name = account_name
         self.account_number = account_number
-        print(f"\n Account '{self.name}'created. \n Account Number{self.account_number} \n Balance = ${self.balance} ")
+        print(f"\n Account '{self.name}'created. \n Account Number = {self.account_number} \n Balance = ${self.balance} ")
         
