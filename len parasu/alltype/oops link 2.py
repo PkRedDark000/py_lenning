@@ -5,3 +5,5 @@ balachandra = BankAccount(10000,"Balachandra",237628798)
 suresh = BankAccount(50000,"Suresh",5678387986)
 
 balachandra.get_balance()
+Parasu.deposit(1000)
+Parasu.deposit(250.5)
