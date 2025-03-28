@@ -15,3 +15,5 @@ class BankAccount:
         self.account_number = account_number
         print(f"\n Account '{self.name}'created. \n Account Number = {self.account_number} \n Balance = ${self.balance:.2f} ")
         
+    def get_balance(self):
+        print(f"\n Account'{self.name}' \n Acount number = {self.account_number}\n balance = ${self.balance:.2f}")
