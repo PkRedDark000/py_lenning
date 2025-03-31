@@ -1,6 +1,13 @@
 pip install pip
 index pypl
 pip install requests
+pip install python-dotenv
+
+# pkg infomation commend
+python3 -m pip show requests
+
+#new foleder make commend
+
 
 # linux and mac commend
 python3 -m pip  install requests
@@ -12,6 +19,8 @@ py -m pip  uninstall requests
 
 # update commend -U
 pip install -U requests
+python3 -m pip install -U pip
+python.exe -m pip install --upgrade pip  # for windows
 
 #list how to see installed commend
 pip list
