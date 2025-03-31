@@ -46,3 +46,6 @@ Git merge etc .. main and master    both same commend
 
 Pull request commants
 
+# new files make git
+.gitignore #file name
+.venv ....etc #inside command
