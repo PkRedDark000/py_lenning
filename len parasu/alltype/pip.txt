@@ -15,3 +15,11 @@ pip install -U requests
 
 #list how to see installed commend
 pip list
+
+# version install
+pip install requests==2.28.0
+
+#venv
+python3 -m venv
+# name chenage 
+python3 -m venv .venv
