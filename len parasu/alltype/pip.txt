@@ -30,15 +30,20 @@ pip install requests==2.28.0
 
 #venv
 python3 -m venv
+
 # name chenage 
 python3 -m venv .venv
+
 # activate venv
 source .venv
+
 #step 2
 .venv bin foleder activate files
 .venv scripts foleder activate files
+
 #step 3
 source .venv/scripts/activate
+
 #step 4
 cd .\.venv\  
 cd .\Scripts\
