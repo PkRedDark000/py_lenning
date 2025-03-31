@@ -1,9 +1,17 @@
 pip install pip
 index pypl
 pip install requests
+
 # linux and mac commend
 python3 -m pip  install requests
+python3 -m pip  uninstall requests
+
 # windows user 
 py -m pip  install requests
+py -m pip  uninstall requests
+
 # update commend -U
 pip install -U requests
+
+#list how to see installed commend
+pip list
