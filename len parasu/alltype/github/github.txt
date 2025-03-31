@@ -1,0 +1,48 @@
+Git status 
+
+Git add in.html
+
+Git commit  -m " in.html html added file "
+
+Git push origin main
+
+Received file 
+
+Git  pull
+
+Pc folder how online git
+
+Git init
+
+Git status 
+
+Git add  .  All file going online 
+
+Git commit  -m " in.html html added file "
+
+Git push origin main
+
+New folder create 
+Git init 
+
+Git add .
+
+Git remote add origin http://uguhui.com.github
+
+Git branch  name see
+
+Git branch -M main   name change 
+
+Git push origin main or master 
+
+How many branch list commot
+Git branch  -a     all list show command 
+
+Git checkout etc.. parasu main master   switch branch command 
+
+Git diff etc.. parasu main master     difference  see command 
+
+Git merge etc .. main and master    both same commend
+
+Pull request commants
+

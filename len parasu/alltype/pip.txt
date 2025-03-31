@@ -7,7 +7,7 @@ pip install python-dotenv
 python3 -m pip show requests
 
 #new foleder make commend
-
+python3 -m pip freeze > requirements.txt
 
 # linux and mac commend
 python3 -m pip  install requests
