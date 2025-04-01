@@ -18,3 +18,8 @@ files = open("names.txt")
 # print(files.readline())
 
 # step 3
+# for line in files:
+#     print(line)
+# files.close()  # files close comment
+
+# step 4
