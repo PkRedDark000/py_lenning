@@ -23,3 +23,17 @@ files = open("names.txt")
 # files.close()  # files close comment
 
 # step 4
+# try:
+#     files = open("names.txt")
+#     print(files.read())
+# except:
+#     print("The file you want to read doesn't exist")
+# finally:
+#     files.close()
+
+# step 5
+# Append - creates the file if it doesn't exist
+# files = open("names.txt", "a")
+# files.write("\ncss")
+# files.close()
+
