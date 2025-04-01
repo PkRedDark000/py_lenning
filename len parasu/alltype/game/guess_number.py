@@ -1,4 +1,5 @@
 import random
+
 import sys
 from enum import Enum
 game_count = 0

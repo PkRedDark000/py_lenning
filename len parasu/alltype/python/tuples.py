@@ -1,0 +1,16 @@
+# # Tuples
+# mytuples = tuple(('Dave', 42, True))
+# anothertuple = (1,2,3,6,8,3,2,2)
+# print(mytuples)
+# print(type(anothertuple))
+# newlist = list(mytuples)
+# newlist.append('nali')
+# print(newlist)
+# newtuple = tuple(newlist)
+# print(newtuple)
+# (one, *two, hey) = anothertuple
+# print(one)
+# print(two)
+# print(hey)
+# print(anothertuple.count(2))
+# print(anothertuple.count(3))
